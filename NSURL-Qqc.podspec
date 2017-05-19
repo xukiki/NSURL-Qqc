@@ -6,12 +6,13 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "NSURL-Qqc"
-  s.version      = "1.0.18"
+  s.version      = "1.0.42"
   s.summary      = "NSURL-Qqc"
   s.homepage     = "https://github.com/xukiki/NSURL-Qqc"
   s.source       = { :git => "https://github.com/xukiki/NSURL-Qqc.git", :tag => "#{s.version}" }
   
   s.source_files  = ["NSURL-Qqc/*.{h,m}"]
   s.dependency  = "NSArray+Qqc"
+  s.dependency  = "NSString+Qqc"
 
 end
